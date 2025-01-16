@@ -1,5 +1,12 @@
 # Embbeded Systems with Arduino
 
+![GitHub repo size](https://img.shields.io/github/repo-size/your-username/embedded_systems_arduino)
+![GitHub contributors](https://img.shields.io/github/contributors/your-username/embedded_systems_arduino)
+![GitHub stars](https://img.shields.io/github/stars/your-username/embedded_systems_arduino?style=social)
+![GitHub forks](https://img.shields.io/github/forks/your-username/embedded_systems_arduino?style=social)
+![GitHub issues](https://img.shields.io/github/issues/your-username/embedded_systems_arduino)
+![GitHub license](https://img.shields.io/github/license/your-username/embedded_systems_arduino)
+
 ## Description
 
 This repository contains a collection of Arduino-based projects. Each project is designed to demonstrate different functionalities and applications of Arduino. Currently, the repository includes the following projects:
