@@ -1,11 +1,11 @@
 # Embbeded Systems with Arduino
 
-![GitHub repo size](https://img.shields.io/github/repo-size/your-username/embedded_systems_arduino)
-![GitHub contributors](https://img.shields.io/github/contributors/your-username/embedded_systems_arduino)
-![GitHub stars](https://img.shields.io/github/stars/your-username/embedded_systems_arduino?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/embedded_systems_arduino?style=social)
-![GitHub issues](https://img.shields.io/github/issues/your-username/embedded_systems_arduino)
-![GitHub license](https://img.shields.io/github/license/your-username/embedded_systems_arduino)
+![GitHub repo size](https://img.shields.io/github/repo-size/weversonbarbieri//embedded_systems_arduino)
+![GitHub contributors](https://img.shields.io/github/contributors/weversonbarbieri//embedded_systems_arduino)
+![GitHub stars](https://img.shields.io/github/stars/weversonbarbieri//embedded_systems_arduino?style=social)
+![GitHub forks](https://img.shields.io/github/forks/weversonbarbieri//embedded_systems_arduino?style=social)
+![GitHub issues](https://img.shields.io/github/issues/weversonbarbieri//embedded_systems_arduino)
+![GitHub license](https://img.shields.io/github/license/weversonbarbieri//embedded_systems_arduino)
 
 ## Description
 
