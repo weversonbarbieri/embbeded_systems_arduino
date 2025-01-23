@@ -3,9 +3,6 @@
 ![C++](https://img.shields.io/badge/language-C++-blue.svg)
 ![Arduino](https://img.shields.io/badge/platform-Arduino-blue.svg)
 
-![C++](https://img.shields.io/badge/language-C++-blue.svg)
-![Arduino](https://img.shields.io/badge/platform-Arduino-blue.svg)
-
 ## Description
 
 This repository contains a collection of Arduino-based projects. Each project is designed to demonstrate different functionalities and applications of Arduino. Currently, the repository includes the following projects:
