@@ -9,6 +9,7 @@ This repository contains a collection of Arduino-based projects. Each project is
 
 1. [Parking Ticket System](parking_ticket_system/README.md)
 2. [Throttle Body Control with Potentiometer](throttle_body_w_pot/README.md)
+3. [Photoresistor 7seg Display](photoresistor_7seg_display/README.md): project in working progress.
 
 More projects will be added in the future.
 
