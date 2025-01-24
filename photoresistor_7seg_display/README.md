@@ -19,7 +19,7 @@ This project uses an Arduino to control a 7-segment display based on the input f
 
 ## Circuit Diagram
 
-(Include a diagram here showing the connections between the Arduino, 7-segment display, photoresistor, and LEDs)
+The diagram will be included soon.
 
 ## How It Works
 
@@ -38,7 +38,7 @@ This project uses an Arduino to control a 7-segment display based on the input f
   - Open the Serial Monitor to view the photoresistor values and the corresponding number displayed.
 
 ## See the System Working
-(Include a link to a video or images showing the system in action)
+The video will be included soon.
 
 ## Licenses
 
