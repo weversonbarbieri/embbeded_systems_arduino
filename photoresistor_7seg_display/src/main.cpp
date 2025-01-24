@@ -21,7 +21,7 @@ void setup () {
   pinMode(Pinread, INPUT);
 
   // Array to store the Arduino pin numbers output to the 7-segment display segments
-  int arduino_pins[] = {2, 3, 4, 5, 6, 7, 9};
+  int arduinoPins[] = {2, 3, 4, 5, 6, 7, 9};
 
   // Loop through the arduino_pins array storing the Arduino pin numbers
   for (int i = 2; i < 10; i++) {
