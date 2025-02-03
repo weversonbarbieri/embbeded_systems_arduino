@@ -34,7 +34,7 @@ This project uses an Arduino to control a 7-segment display based on the input f
   - Open the Serial Monitor to view the photoresistor values and the corresponding number displayed.
 
 ## See the System Working
-[(Include a link to a video or images showing the system in action)](https://drive.google.com/file/d/1xW0ytpXgFqhD4jHA9687451YxRKxkL8K/view?usp=sharing)
+[(Video showing the system in action)](https://drive.google.com/file/d/1xW0ytpXgFqhD4jHA9687451YxRKxkL8K/view?usp=sharing)
 
 ## Licenses
 
