@@ -3,15 +3,14 @@
 // Pin definitions
 int Pinread = A0; // Analog pin to read the photoresistor value
 int valphoto; // Variable to store the photoresistor value
-int ledblue = 11; // Pin for the blue LED
-int ledgreen = 12; // Pin for the green LED
+int relayBulb = 13; // Pin for the relay
 int a = 2; // Pin for segment 'a' of the 7-segment display
 int b = 3; // Pin for segment 'b' of the 7-segment display
 int c = 4; // Pin for segment 'c' of the 7-segment display
 int d = 5; // Pin for segment 'd' of the 7-segment display
 int e = 6; // Pin for segment 'e' of the 7-segment display
 int f = 7; // Pin for segment 'f' of the 7-segment display
-int g = 9; // Pin for segment 'g' of the 7-segment display
+int g = 8; // Pin for segment 'g' of the 7-segment display
 
 void setup () {
   // Initialize serial communication at 9600 bps
@@ -21,7 +20,7 @@ void setup () {
   pinMode(Pinread, INPUT);
 
   // Array to store the Arduino pin numbers output to the 7-segment display segments
-  int arduino_pins[] = {2, 3, 4, 5, 6, 7, 9};
+  int arduinoPins[] = {2, 3, 4, 5, 6, 7, 9};
 
   // Loop through the arduino_pins array storing the Arduino pin numbers
   for (int i = 2; i < 10; i++) {
@@ -29,9 +28,8 @@ void setup () {
     pinMode(i, OUTPUT);
   }
 
-  // Set the LED pins as outputs
-  pinMode(ledblue, OUTPUT);
-  pinMode(ledgreen, OUTPUT);
+  // Set the Relay pins as outputs
+    pinMode(relayBulb, OUTPUT);
 
 }
 
@@ -124,40 +122,39 @@ void loop() {
   
   // Display a number on the 7-segment display based on the photoresistor value
   if (valphoto < 100) {
-      // Display de number 0 and turn on blue led and leave the green led off
+      // Display de number 0 and turn on the relay
       zero();
-      digitalWrite(ledblue, HIGH);
-      digitalWrite(ledgreen, LOW);
+    digitalWrite(relayBulb, HIGH);
+    
   } else if (valphoto < 200) {
-      // Display de number 1 and turn on blue led and leave the green led off
+      // Display de number 1 and turn on the relay
       one();
-      digitalWrite(ledblue, HIGH);
-      digitalWrite(ledgreen, LOW);
+      digitalWrite(relayBulb, HIGH); 
+  
   } else if (valphoto < 300) {
-      // Display de number 2 and turn on blue led and leave the green led off
+      // Display de number 2 and turn on the relay
       two();
-      digitalWrite(ledblue, HIGH);
-      digitalWrite(ledgreen, LOW);
+      digitalWrite(relayBulb, HIGH);
+      
   } else if (valphoto < 400) {
-      // Display de number 3 and turn off blue led and turn on the green led
+      // Display de number 3 and turn on the relay
       three();
-      digitalWrite(ledblue, LOW);
-      digitalWrite(ledgreen, HIGH);
+      digitalWrite(relayBulb, HIGH);
+      
   } else if (valphoto < 500) {
-      // Display de number 4 and turn off blue led and turn on the green led
+      // Display de number 4 and turn on the relay
       four();
-      digitalWrite(ledblue, LOW);
-      digitalWrite(ledgreen, HIGH);
+      digitalWrite(relayBulb, HIGH);
+      
   } else if (valphoto < 600) {
-      // Display de number 5 and turn off blue led and turn on the green led
+      // Display de number 5 and turn on the relay
       five();
-      digitalWrite(ledblue, LOW);
-      digitalWrite(ledgreen, HIGH);
-  } else {
-    // Display de number 6 and turn on both leds 
-    six();
-      digitalWrite(ledblue, HIGH);
-      digitalWrite(ledgreen, HIGH);
+      digitalWrite(relayBulb, LOW);
+      
+  }  else {
+    // Display de number 6 and turn on the relay 
+      six();
+      digitalWrite(relayBulb, LOW);
   }
      
 }
